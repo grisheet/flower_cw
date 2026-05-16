@@ -1,16 +1,14 @@
-# peonia
+peony
+An interactive peony animation made with p5.js. Runs directly in the browser—no installation needed.
 
-Una animación interactiva de una peonía hecha con p5.js. Corre directo en el navegador, sin instalar nada.
+How to use it
+Open peonia.html in your browser and that’s it. No server, no npm, nothing else required.
 
-## Cómo usarlo
+What it does
+It renders a 3D peony that blooms on its own, cycles through different color variations, and then wilts. The mouse affects the rotation. Visual effects automatically switch between ASCII, dots, and pixels, and a glitch effect appears occasionally.
 
-Abrís `peonia.html` en el navegador y listo. No necesita servidor, no necesita npm, no necesita nada.
+What was used
+p5.js — handles all the graphics, canvas, and rendering
 
-## Qué hace
+Vanilla HTML/CSS/JS — no frameworks, no bundlers
 
-Dibuja una peonía en 3D que florece sola, cicla entre distintas variantes de color y después se marchita. El mouse influye en la rotación. Los efectos van rotando solos entre ascii, puntos y píxeles, y hay un glitch que aparece cada tanto.
-
-## Lo que se usó
-
-- [p5.js](https://p5js.org/) — toda la parte gráfica, el canvas, el render
-- HTML/CSS/JS vanilla — sin frameworks, sin bundlers
